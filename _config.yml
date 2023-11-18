@@ -179,13 +179,20 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
+  - '*.gem'
+  - '*.gemspec'
+  - .editorconfig
+  - .gitignore
+  - .gitmodules
   - tools
+  - Gemfile
+  - Gemfile.lock
+  - CNAME
   - README.md
   - CHANGELOG.md
+  - CONTRIBUTING.md
   - LICENSE
-  - rollup.config.js
+  - gulpfile.js
   - node_modules
   - package*.json
 
